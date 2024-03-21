@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="activeUsers">
+            <h2>Users Online</h2>
+            <ul class="list-users">
+            
+            </ul>
+        </div>
+        <div class="tamas">
+            <!-- <h2>Click on a person to call</h2> -->
+            <div class="camera">
+                <video class="video" id="remote-video" autoplay>
+                    
+                </video>
+            </div>
+            <div class="my-camera">
+                <video class="video" id="local-video" autoplay>
+                    
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/socket.io.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>

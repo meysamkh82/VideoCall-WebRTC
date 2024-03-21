@@ -1,0 +1,70 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    max-width: 1500px;
+    margin:10px auto;
+    height: 90vh;
+    display: flex;
+}
+h1,h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100 !important;
+
+}
+.activeUsers{
+    width: 24%;
+    height: 100%;
+   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.304);
+    margin-right: 20px;
+    padding:8px;
+    border-radius: 6px;
+}
+.tamas{
+    width: 75%;
+    height: 100%;
+    
+    position: relative;
+}.camera{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}.my-camera{
+    width: 250px;
+    height: 16   0px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.399);
+    position: absolute;
+    bottom:15px;
+    right:15px;
+    background-color: white;
+    border-radius: 5px;
+}video{
+    width: 100%;
+    height: 100%;
+    
+}.list-users{
+    margin-top:20px;
+    list-style: none;
+}
+.list-users li{
+    padding:10px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    margin:6px 0;
+    font-weight: 600s;
+    font-family: sans-serif;
+    color:rgb(78, 78, 78);
+    cursor: pointer;
+    transition:all .2s;
+}
+.list-users li:hover{
+    color:rgb(18, 18, 18);
+    background-color:rgb(213, 213, 213) ;
+}.active-user{
+background-color: rgb(248, 227, 0) !important;
+color:black !important
+}
